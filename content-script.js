@@ -1,0 +1,7 @@
+(function() {
+  var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+  link.type = 'image/x-icon';
+  link.rel = 'shortcut icon';
+  link.href = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJASURBVHgB7VZdbtNAEJ5ZtxWVeMgRnBuEExCLFiW8QG7gnKDlBG5PEHqCwgmAF1wolYM4ALkBPkIkpCA18Ux37Dp1vOtk09fmk9Y/M57x+JufNcAOOzx14NXPX7zxIYApA04QcUy3i0/9fpCKPL5JQmR1ucleO0iBccKUfe2/Dj5WVQocoCNs6WOXmc7UvvpzdZ2cwjZg8PXhHSp1qT/4bxwn/jI2FwbsTuk9K5g6MWAi/e/Ri0EQTO0MIKfL1QBEFSEJMzW5Tldpm1/b4R+SN8qfNxjQ+eq9etmuir5pyhWqkcXRRK9OVaDTdN4/Ds7Ke6Fb7Xsj1imAWqAzj9pONfDmOPgAQBcWVWeTrRTszMuGdTakrg7m4DsFkBtg/rWPguRauqguVwgt5wBs+d4O7NukTgHkbYPqxFBIfzvg+83vSJ98Q7GA1CjC+6Hz5UHCkmdrrqXgpBtWhTpVWKEbuVvMAcN63DvqBnuGuBg6IWyAvFzzl0J9iqAEy52qQ6v9nIdydq6BKkh3RLXVtoEwTBkNynG+t7UHPQGLtnwcZv+oPRgEy5ZUlhBTnlNblrX30XsLa0BEFw/2OK7rD59DWL23pkDokdU7CmTTSVe13I1/JCE0ABGmpT1zdm7qVfQ5SVprA1h5HZHpRK06aYKuk3GdBSnyZws4dQ6g2L8NKv2qk3WwsaD3lZNyS3b7H2hw4jIdm1jAAy9yDqDJiXU6WsDzbGgKOYyvk677ZmRhAWzj1YKi582OQvQi2GGHJ487mM4DFNYI0owAAAAASUVORK5CYII=';
+  document.getElementsByTagName('head')[0].appendChild(link);
+})();
