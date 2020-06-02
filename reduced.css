@@ -138,9 +138,6 @@ span sub + button:before {
 .bp3-icon-small {
   padding-left: 20px !important; }
 
-.rm-block-text {
-  max-width: 640px !important; }
-
 .block-bullet-view {
   margin-bottom: 3px !important; }
 
@@ -150,8 +147,10 @@ span sub + button:before {
 .rm-reference-main div > strong {
   color: gray !important; }
 
-.bp3-overlay-content {
-  position: fixed !important; }
+.bp3-overlay-inline .bp3-overlay-content,
+.bp3-overlay-scroll-container .bp3-overlay-content {
+  position: fixed !important;
+}
 
 #right-sidebar #roam-right-sidebar-content > div[style] .bp3-button.bp3-minimal.bp3-icon-minus.bp3-small {
   margin-left: -5px !important; }
@@ -160,6 +159,15 @@ span sub + button:before {
   margin-right: -5px !important; }
 
 iframe { border: none !important; }
+
+.bp3-button sub {
+  color: #9099a1 !important;
+  margin: 0 5px !important;
+}
+
+.rm-line[style] {
+  display: none !important;
+}
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -177,7 +185,7 @@ iframe { border: none !important; }
   
   img,
   div#buffer,
-  .bp3-portal,
+  .bp3-dialog,
   .intercom-app,
   .loading-astrolabe,
   .twitter-tweet,

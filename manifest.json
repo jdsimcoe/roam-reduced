@@ -27,5 +27,5 @@
   "permissions": ["tabs", "*://*.roamresearch.com/#/*"],
   "short_name": "RoamReduced",
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "version": "0.1"
+  "version": "0.2"
 }
