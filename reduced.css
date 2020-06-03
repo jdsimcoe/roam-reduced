@@ -186,6 +186,7 @@ iframe { border: none !important; }
   img,
   div#buffer,
   .bp3-dialog,
+  .bp3-portal .bp3-popover,
   .intercom-app,
   .loading-astrolabe,
   .twitter-tweet,
